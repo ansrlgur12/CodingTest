@@ -1,4 +1,4 @@
-package Test2;
+package _01_28;
 
 public class Solution {
     public String solution1(String[] seoul) {
