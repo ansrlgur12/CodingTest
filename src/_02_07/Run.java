@@ -1,10 +1,9 @@
-package _02_06;
+package _02_07;
 
 public class Run {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        //System.out.println(sol.test1("-1234"));
-        System.out.println(sol.test2(118372));
+        System.out.println(sol.solution(3, 5));
 
     }
 }
