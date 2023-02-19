@@ -7,8 +7,6 @@ public class Solution {
             while(num != 1) {
                 num = (num % 2 == 0) ? num / 2 : (num * 3) + 1;
                 cnt++;
-                System.out.print(cnt + " ");
-                System.out.println(num);
                 if(cnt > 500) {
                     return answer = -1;
                 }
