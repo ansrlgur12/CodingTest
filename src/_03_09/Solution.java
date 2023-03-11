@@ -36,11 +36,11 @@ class Solution {
     public String test3(String s) {
         //String answer = "";
         int num = s.length() / 2;
-   //     if (s.length() % 2 != 0) { // 홀수면
-   //         answer = s.substring(num, num + 1);
-   //     } else answer = s.substring(num - 1, num + 1);
-   //     return answer;
-       String answer = (s.length() % 2 !=0) ? s.substring(num, num + 1) : s.substring(num - 1, num + 1);
-       return answer;
+        //     if (s.length() % 2 != 0) { // 홀수면
+        //         answer = s.substring(num, num + 1);
+        //     } else answer = s.substring(num - 1, num + 1);
+        //     return answer;
+        String answer = (s.length() % 2 != 0) ? s.substring(num, num + 1) : s.substring(num - 1, num + 1);
+        return answer;
     }
 }
