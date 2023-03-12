@@ -5,5 +5,6 @@ public class Run {
         Solution sol = new Solution();
         System.out.println(sol.test1(new String[]{"aya", "yee", "u", "maa", "wyeoo"}));
         //System.out.println(sol.test2(8,10,12,14));
+
     }
 }
