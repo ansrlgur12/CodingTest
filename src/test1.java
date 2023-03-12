@@ -5,6 +5,6 @@ public class test1 {
         String a = "";
         a = s.substring(2,3);
         System.out.println(a);
-
+        String as = "vavabobo";
     }
 }
