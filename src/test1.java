@@ -6,5 +6,6 @@ public class test1 {
         a = s.substring(2,3);
         System.out.println(a);
         String as = "vavabobo";
+        System.out.println("커밋해야해..");
     }
 }
