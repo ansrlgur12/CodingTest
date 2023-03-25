@@ -13,6 +13,7 @@ class Solution {
         }
         for (String[] e : list) {
             if (e.length == 0) answer++;
+
         }
 
         return answer;
