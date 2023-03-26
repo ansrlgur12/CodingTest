@@ -15,11 +15,8 @@ class Solution {
             if (e.length == 0) answer++;
 
         }
-
         return answer;
     }
-
-
         public int[] test2(int numer1, int denom1, int numer2, int denom2) {
 
             int max = 0;
