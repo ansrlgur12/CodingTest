@@ -10,6 +10,7 @@ class Solution {
         for (int i = 0; i < babbling.length; i++) {
             String[] arr = babbling[i].split("aya|ye|woo|ma");
             list.add(arr);
+
         }
         for (String[] e : list) {
             if (e.length == 0) answer++;
