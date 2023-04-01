@@ -5,5 +5,8 @@ public class Solution {
             int answer = 0;
             return answer = (num1 == num2) ? 1 : -1;
         }
-
+        public int test2(int num1, int num2) {
+            int answer = num1 % num2;
+            return answer;
+        }
 }
