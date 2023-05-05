@@ -22,6 +22,7 @@ public class Solution {
                 }
             }
             answer += " ";
+
         }
         return answer.trim();
     }
