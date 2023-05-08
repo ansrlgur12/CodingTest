@@ -11,7 +11,6 @@ public class Solution {
         char[] a;
 
         for (int i = 0; i < str.length; i++){
-
             for (int j = 0; j < str[i].length(); j++) {
                 if (j == 0 || j % 2 == 0) {
                     chr = str[i].charAt(j) - 32;
@@ -22,11 +21,9 @@ public class Solution {
                 }
             }
             answer += " ";
-
         }
         return answer.trim();
     }
-
 }
 
 
